@@ -1,0 +1,17 @@
+# External sources and adaptation record
+
+This Skill absorbs decision methods from public references and JIN’s own project evidence. It does **not** copy third-party Skill files, code, visual assets, or claims wholesale.
+
+| Source | What was learned | What JIN adopted | What was not adopted / why |
+| --- | --- | --- | --- |
+| [Taste Skill](https://github.com/leonxlnx/taste-skill) | Agent-guided anti-template UI work, with deliberate variance, motion, and density settings; emphasis on layout, typography, spacing, and motion rather than boilerplate UI | the three design dials, anti-template audit, hierarchy-first visual reviews, and role-based motion | no copied SKILL text, code skeletons, presets, or style mandates; every project must retain its own brand and audience context |
+| [Impeccable](https://github.com/pbakaus/impeccable) | Product context before visual work, brand/product surface distinction, shared critique vocabulary, project-level `PRODUCT.md` and `DESIGN.md` | product-first setup, `critique → distill → typeset/layout → adapt/harden → polish`, and project-memory templates | no installation, CLI dependency, detector claims, or external commands are required; the shared skill stays framework-agnostic |
+| [Vercel: Teaching agents product design](https://vercel.com/blog/teaching-agents-product-design-at-vercel) | Keep accepted product/design decisions in the repository; separate routing/entrypoint, focused references, evidence, and project-level agent context | `AGENTS.md` trigger rules, a compact `SKILL.md`, focused reference files, project memory, and evidence-oriented review/handoff | no Vercel-only tooling or organization-specific workflow is assumed; adapt to the actual project and host |
+| [Kage](https://github.com/MengTo/kage) | Chapter-led interactive storytelling, depth, progression, and scene transitions | selective scroll storytelling, sticky progression, layered scene logic, and progressive reveal when content has a narrative sequence | no copied Three.js code/art, no requirement for immersive WebGL, and no all-site scroll spectacle; mobile, reduced motion, and performance come first |
+| [GSAP ScrollTrigger docs](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) | Reference for scroll-triggered interaction when a project already uses GSAP | verify start/end states, interruption, performance, and reduced-motion behavior | no mandatory GSAP dependency; use the lightest compatible approach |
+| [Vite static deployment](https://vite.dev/guide/static-deploy.html) | Static build/deploy concepts | keep source, build, output, and live environment distinct | exact host configuration must be inspected in the target project |
+| [Netlify deploy documentation](https://docs.netlify.com/site-deploys/create-deploys/) | Git-driven and manual deployment concepts | choose and document one primary release route; validate a real URL | no provider-specific setting is assumed without checking current docs and project config |
+
+## Update rule
+
+When a source materially changes, review its current official/repository documentation before updating this record. Record the change date and only add rules that improve a real decision in JIN’s workflow.

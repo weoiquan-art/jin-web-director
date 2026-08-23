@@ -1,0 +1,6 @@
+interface:
+  display_name: "JIN Web Director"
+  short_description: "以产品、审美与工程纪律指导网站工作"
+  default_prompt: "使用 $jin-web-director 审查并规划这个网站任务，先检查项目和产品目标，再提出最小可验证方案。"
+policy:
+  allow_implicit_invocation: true
