@@ -49,6 +49,19 @@ Treat hierarchy as a resource: each viewport should have one strongest idea, the
 
 Read [principles/visual-taste.md](principles/visual-taste.md) for visual choices, [principles/interaction-direction.md](principles/interaction-direction.md) for motion, and [quality/interface-quality.md](quality/interface-quality.md) for critique.
 
+## Speed and quality toolkit
+
+Use these reference tools to accelerate implementation and maintain design consistency:
+
+- **[references/design-system.md](references/design-system.md)** — Color, typography, spacing, radius, shadow, breakpoint reference table. Query this before creating new styles.
+- **[quality/visual-audit.md](quality/visual-audit.md)** — 5-minute aesthetic checklist: contrast, hierarchy, spacing, typography, color, alignment, responsive, accessibility. Use before handoff.
+- **[references/responsive-breakpoints.md](references/responsive-breakpoints.md)** — Responsive decision matrix: which layout for each content type (nav, hero, card grid, table, form) at each breakpoint (375px, 768px, 1440px+). Eliminates repeated design decisions.
+- **[quality/performance-checklist.md](quality/performance-checklist.md)** — Image format selection, font optimization, Core Web Vitals targets, Lighthouse checklist. Ensures <2.5s LCP and ≥90 performance score.
+- **[references/component-patterns.md](references/component-patterns.md)** — Copy-paste implementation templates: button, input, card, modal, navigation, with HTML/CSS/JS and accessibility markup. No explanation needed.
+- **[references/token-efficiency.md](references/token-efficiency.md)** — Design prompt and documentation rules: use tables not paragraphs, symbols not words, links not repetition. Reduces agent token cost by 70% per query while improving clarity.
+
+These are designed for both human review and agent consumption: minimal prose, maximum signal.
+
 ## Source of truth and honesty
 
 - Treat project-local product, design, and deployment documents as the authority for that project. This skill provides decision discipline; it does not override a confirmed brand system or product requirement.
