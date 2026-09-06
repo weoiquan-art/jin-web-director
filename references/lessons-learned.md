@@ -40,6 +40,10 @@ These are local operating lessons derived from `JIN_网站搭建方法论_弯路
 
 ## Evidence levels
 
+### 2026-09-06 — Generated artwork and ink entrances
+
+An attempted transparent raven cutout returned RGB with a baked checkerboard. It was rejected after inspecting the actual channels. The site instead uses the approved raster, a separate dark plate and a native SVG brush reveal. Mobile review also found I/N wrapping and the old signature escaping its crop; nowrap and source-proportioned cropping resolved them. See [brand-ink-entrance.md](brand-ink-entrance.md) for evidence boundaries and reusable checks. JIN's specific appearance and 2.04-second timing remain project preferences.
+
 - **Confirmed:** observed in project files, conversations, build logs, release behavior, or explicit user decision.
 - **Reusable rule:** a prevention rule extracted from repeated/clear local evidence.
 - **Hypothesis:** a likely diagnosis awaiting source/log confirmation; never present it as proven fact.

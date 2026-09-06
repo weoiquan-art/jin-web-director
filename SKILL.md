@@ -83,4 +83,6 @@ At handoff, report:
 
 ## Learning loop
 
+For generated brand artwork, ink-drawing entrances, or preserving an existing animation during a redesign, read [references/brand-ink-entrance.md](references/brand-ink-entrance.md). It separates asset-channel verification, animation sequencing, resilience checks and JIN-specific preferences.
+
 When a real project reveals a durable lesson, add it to [references/lessons-learned.md](references/lessons-learned.md) with date, observed symptom, evidence, resolution, and prevention rule. Do not turn a one-off preference or an unverified diagnosis into a universal rule.
