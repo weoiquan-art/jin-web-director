@@ -20,6 +20,10 @@ Use this skill to make website decisions like a product-minded designer and a di
 
 ## Director loop
 
+## Optional system maps with Archify
+
+When the user asks to understand a website's verified system architecture, user workflow, API sequence, or data flow, invoke the installed [`$archify`](https://github.com/tt-a1i/archify) skill to make a reviewable diagram. Ground the map in inspected project files and label unknowns as unknown; use it to explain decisions, not as a substitute for page design, responsive QA, or the working website. Do not add a diagram to routine UI changes unless the user asks for one.
+
 Use this order for a new site, a meaningful redesign, or a multi-section change:
 
 1. Product intent: audience, desired action, proof, success signal, exclusions.
