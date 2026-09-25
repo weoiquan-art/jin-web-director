@@ -17,6 +17,8 @@
 
 首次处理已有网站时，先让 Agent 检查项目结构并复述理解；不要直接要求“重做整个网站”。
 
+与 [`for-coding-`](https://github.com/weoiquan-art/for-coding-) 协作时，先用本 Skill 确定用户目标、素材与验收标准，再按 [工程交接说明](workflows/engineering-handoff.md) 选择对应的编码 Skill。GitHub 链接仅指向来源；要在 Agent 中调用对应 Skill，仍须按使用环境安装或提供该 Skill 文件。轮盘作品集的已验证做法见 [Viscose JIN 案例](references/viscose-portfolio.md)。
+
 ## 目录
 
 ```text
@@ -38,6 +40,7 @@ jin-web-director/
 │   ├── new-site-workflow.md
 │   ├── redesign-workflow.md
 │   ├── agent-development-workflow.md
+│   ├── engineering-handoff.md
 │   └── deployment.md
 ├── quality/
 │   ├── interface-quality.md
@@ -46,7 +49,8 @@ jin-web-director/
 │   └── seo.md
 ├── references/
 │   ├── external-skills.md
-│   └── lessons-learned.md
+│   ├── lessons-learned.md
+│   └── viscose-portfolio.md
 └── source-material/
     ├── JIN_网站搭建方法论_弯路与技巧复盘_v1.0.docx
     └── 網站搭建方法論.md

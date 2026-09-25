@@ -38,11 +38,22 @@ These are local operating lessons derived from `JIN_网站搭建方法论_弯路
 | “It should work” is not release evidence. | Provide build output, verified URL, version/commit, known gaps, and deployment route in the handoff. |
 | Third-party principles can be useful but may not fit the project exactly. | Attribute the source, translate it into JIN’s language, and only promote it to a rule after it helps a real project decision. |
 
-## Evidence levels
+## Dated case notes
+
+### 2026-09-25 — Viscose JIN interactive portfolio draft
+
+The [portfolio draft](https://github.com/weoiquan-art/Viscose-JIN-fork/pull/1) kept the upstream WebGL/GSAP implementation and replaced the demo content with JIN's supplied character and film media. Its [asset map](https://github.com/weoiquan-art/Viscose-JIN-fork/blob/56782bba6719bb0e8fd3a1ca8c3542431286e92d/components/ring/projects.js) and [QA record](https://github.com/weoiquan-art/Viscose-JIN-fork/blob/56782bba6719bb0e8fd3a1ca8c3542431286e92d/QA.md) are pinned to the PR's reviewed commit. See [viscose-portfolio.md](viscose-portfolio.md) for the scoped checks and implementation lessons.
+
+- **Observed symptom:** Static build and lint succeeded, but browser interaction still exposed an entrance that crawled under software WebGL. The live animation clock, pause marker and actual state transitions had to be checked in Chromium.
+- **Resolution:** The draft disabled GSAP ticker lag smoothing during the interactive scene, restored its original setting on cleanup, and removed a timeline pause before resuming. Browser checks then covered entry, wheel/touch/keyboard, deep links, media dialogs, and no-JS/WebGL fallbacks at recorded widths.
+- **Prevention rule:** Treat build success as source validation only. Verify shaders, animation completion, focus, fallbacks, asset references and content at real browser sizes. Record environment limitations; do not extrapolate a software-WebGL check into physical-device performance.
+- **Release boundary:** The draft PR and local browser checks are not a Vercel preview or a production release. Publish status requires a real host deployment and verification of its URL and commit.
 
 ### 2026-09-06 — Generated artwork and ink entrances
 
 An attempted transparent raven cutout returned RGB with a baked checkerboard. It was rejected after inspecting the actual channels. The site instead uses the approved raster, a separate dark plate and a native SVG brush reveal. Mobile review also found I/N wrapping and the old signature escaping its crop; nowrap and source-proportioned cropping resolved them. See [brand-ink-entrance.md](brand-ink-entrance.md) for evidence boundaries and reusable checks. JIN's specific appearance and 2.04-second timing remain project preferences.
+
+## Evidence levels
 
 - **Confirmed:** observed in project files, conversations, build logs, release behavior, or explicit user decision.
 - **Reusable rule:** a prevention rule extracted from repeated/clear local evidence.

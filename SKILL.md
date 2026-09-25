@@ -77,6 +77,8 @@ These are designed for both human review and agent consumption: minimal prose, m
 
 For meaningful work, break changes into reviewable units: Issue → Inspect → Plan → Modify → Test → Review → PR or release. Read [workflows/agent-development-workflow.md](workflows/agent-development-workflow.md).
 
+When a site task needs a separate coding workflow, use [workflows/engineering-handoff.md](workflows/engineering-handoff.md) to route a bounded implementation, a reproducible bug, or a requested code review to the appropriate skill in [JIN's `for-coding-` repository](https://github.com/weoiquan-art/for-coding-). Keep this site's product decisions, assets, and acceptance checks in its own repository. A repository link alone does not install another skill.
+
 At handoff, report:
 
 - the product and user-facing goal addressed;
@@ -88,5 +90,7 @@ At handoff, report:
 ## Learning loop
 
 For generated brand artwork, ink-drawing entrances, or preserving an existing animation during a redesign, read [references/brand-ink-entrance.md](references/brand-ink-entrance.md). It separates asset-channel verification, animation sequencing, resilience checks and JIN-specific preferences.
+
+For a media-rich portfolio built on an existing WebGL/GSAP template, read [references/viscose-portfolio.md](references/viscose-portfolio.md). It records the asset map, accessible fallbacks, actual browser checks, and preview boundary verified in the Viscose JIN draft.
 
 When a real project reveals a durable lesson, add it to [references/lessons-learned.md](references/lessons-learned.md) with date, observed symptom, evidence, resolution, and prevention rule. Do not turn a one-off preference or an unverified diagnosis into a universal rule.

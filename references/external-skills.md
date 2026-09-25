@@ -11,6 +11,7 @@ This Skill absorbs decision methods from public references and JIN’s own proje
 | [GSAP ScrollTrigger docs](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) | Reference for scroll-triggered interaction when a project already uses GSAP | verify start/end states, interruption, performance, and reduced-motion behavior | no mandatory GSAP dependency; use the lightest compatible approach |
 | [Vite static deployment](https://vite.dev/guide/static-deploy.html) | Static build/deploy concepts | keep source, build, output, and live environment distinct | exact host configuration must be inspected in the target project |
 | [Netlify deploy documentation](https://docs.netlify.com/site-deploys/create-deploys/) | Git-driven and manual deployment concepts | choose and document one primary release route; validate a real URL | no provider-specific setting is assumed without checking current docs and project config |
+| [JIN's `for-coding-` skills](https://github.com/weoiquan-art/for-coding-) (reviewed 2026-09-25) | `implement` executes a scoped spec; `diagnosing-bugs` starts with a tight reproduction loop; `code-review` compares a diff against a fixed point and spec | route suitable engineering tasks through [engineering-handoff.md](../workflows/engineering-handoff.md), then bring code and test evidence back to the site QA gate | no copied skill text, automatic installation, or blanket invocation; `wayfinder` is for work too large for one session and needs a decision map, not ordinary site edits |
 
 ## Update rule
 
