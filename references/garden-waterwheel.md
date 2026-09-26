@@ -54,4 +54,6 @@
 
 部署阻塞（2026-09-26）：提交 `9ca925f` 的 Cloudflare Pages 检查 `108398944278` 最终返回 `Build failed`，部署 ID 为 `3d897ad8-c813-46ac-8725-36014b30062c`。GitHub 未附具体错误，Cloudflare 后台在当前云浏览器持续安全验证，尚未读到构建日志。下一步先取得该次 Pages 构建的首条实际错误，再定向修复；不能猜测原因，也不能把旧站可访问当成新版本部署成功。独立的 Workers 检查另报 Worker 不存在。草稿 PR 保留，main 未合并。
 
+用户补充日志（2026-09-26 11:57:27 UTC）：`Failed: build failed to initialize in time.` 已定位到构建初始化超时，尚无证据指向 Next.js 编译或水车模型。优先对同一提交重试一次；若复现，检查平台状态、Git 集成和完整初始化日志，再按日志链接联系支持。此时不凭猜测改构建命令或移除模型。官方说明：https://developers.cloudflare.com/pages/configuration/debugging-pages/ 。
+
 工程任务继续按 [engineering-handoff.md](../workflows/engineering-handoff.md) 交给 `for-coding-` 对应流程；技能链接不等于安装，也不等于已经启动另一个 agent。
