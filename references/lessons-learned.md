@@ -53,6 +53,10 @@ The [portfolio draft](https://github.com/weoiquan-art/Viscose-JIN-fork/pull/1) k
 
 An attempted transparent raven cutout returned RGB with a baked checkerboard. It was rejected after inspecting the actual channels. The site instead uses the approved raster, a separate dark plate and a native SVG brush reveal. Mobile review also found I/N wrapping and the old signature escaping its crop; nowrap and source-proportioned cropping resolved them. See [brand-ink-entrance.md](brand-ink-entrance.md) for evidence boundaries and reusable checks. JIN's specific appearance and 2.04-second timing remain project preferences.
 
+### 2026-09-26 — Garden entrance with a modeled waterwheel
+
+The [garden case](garden-waterwheel.md) records a genuine rotating mesh over clean day/night image plates, and its pinned source/QA evidence. Desktop composition initially cropped the lamp on mobile; independent mobile framing and source-image coordinate transforms corrected it. A night transition with an undecodable asset showed why image bytes and actual decode need checking. Keep scene lifecycle, fallback, theme contrast and browser history in the acceptance checks. Physical-device performance, JIN’s model review and production release remain separate gates.
+
 ## Evidence levels
 
 - **Confirmed:** observed in project files, conversations, build logs, release behavior, or explicit user decision.

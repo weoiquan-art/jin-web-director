@@ -93,4 +93,6 @@ For generated brand artwork, ink-drawing entrances, or preserving an existing an
 
 For a media-rich portfolio built on an existing WebGL/GSAP template, read [references/viscose-portfolio.md](references/viscose-portfolio.md). It records the asset map, accessible fallbacks, actual browser checks, and preview boundary verified in the Viscose JIN draft.
 
+For a fixed-camera illustrated environment with a movable 3D object, day/night lighting, or image-anchored hotspots, read [references/garden-waterwheel.md](references/garden-waterwheel.md). It covers clean plates, movable/fixed model groups, crop-aware interaction, shared themes, render lifecycle and verified JIN garden progress.
+
 When a real project reveals a durable lesson, add it to [references/lessons-learned.md](references/lessons-learned.md) with date, observed symptom, evidence, resolution, and prevention rule. Do not turn a one-off preference or an unverified diagnosis into a universal rule.
