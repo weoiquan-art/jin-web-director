@@ -52,4 +52,6 @@
 
 待确认：JIN 对模型材质、概念图匹配和转速的主观审阅；真实手机性能；正式发布。模型是可审核第一版，不能宣称精确复刻或生产已上线。每次交接把源码提交、本地验证、Cloudflare 预览验证、用户审阅与生产发布分别记录。
 
+部署阻塞（2026-09-26）：提交 `9ca925f` 的 Cloudflare Pages 检查 `108398944278` 最终返回 `Build failed`，部署 ID 为 `3d897ad8-c813-46ac-8725-36014b30062c`。GitHub 未附具体错误，Cloudflare 后台在当前云浏览器持续安全验证，尚未读到构建日志。下一步先取得该次 Pages 构建的首条实际错误，再定向修复；不能猜测原因，也不能把旧站可访问当成新版本部署成功。独立的 Workers 检查另报 Worker 不存在。草稿 PR 保留，main 未合并。
+
 工程任务继续按 [engineering-handoff.md](../workflows/engineering-handoff.md) 交给 `for-coding-` 对应流程；技能链接不等于安装，也不等于已经启动另一个 agent。
