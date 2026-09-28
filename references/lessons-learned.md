@@ -30,7 +30,7 @@ These are local operating lessons derived from `JIN_网站搭建方法论_弯路
 | Motion can interfere with inspection and touch. | Pause on hover/focus where relevant; provide reduced motion; do not auto-reorder mobile content without a reason. |
 | Images can break layout or crop badly when their dimensions are uncontrolled. | Define aspect behavior and object position per meaningful image before visual polish. |
 
-## Handoff and evidence
+| A single-screen reference can conflict with a planned film archive. | Keep vertical document flow enabled and model each film as a repeatable full-scale section. |\n| Centered overlay copy can cover the subject throughout a character-led Hero film. | Inspect representative frames first and place persistent UI in stable attention-safe regions; verify mobile crop separately. |\n| Autoplay with sound is treated as a reliable entry behavior. | Start muted with `playsinline`, then enable sound only after an explicit user gesture and provide a clear exit from immersive viewing. |\n\n## Handoff and evidence
 
 | Observed lesson | Prevention rule |
 | --- | --- |
@@ -56,6 +56,15 @@ An attempted transparent raven cutout returned RGB with a baked checkerboard. It
 ### 2026-09-26 — Garden entrance with a modeled waterwheel
 
 The [garden case](garden-waterwheel.md) records a genuine rotating mesh over clean day/night image plates, and its pinned source/QA evidence. Desktop composition initially cropped the lamp on mobile; independent mobile framing and source-image coordinate transforms corrected it. A night transition with an undecodable asset showed why image bytes and actual decode need checking. Keep scene lifecycle, fallback, theme contrast and browser history in the acceptance checks. Physical-device performance, JIN’s model review and production release remain separate gates.
+
+### 2026-09-28 — Video-first Seedance film archive
+
+The [JIN Motion case](video-first-film-archive.md) turns a supplied Seedance clip into the primary homepage experience and leaves the document ready for later full-scale film previews. The original single-viewport reference was not copied literally: scroll locking was removed, the headline moved around the footage's attention zone, and sound became an explicit user-controlled transition.
+
+- **Observed symptom:** A visually accurate landing-page reference centered text over an abstract video and hid overflow, but the supplied character film had a central face and the planned archive needed vertical continuation.
+- **Resolution:** Representative frames were inspected before layout; copy moved to a stable lower-left region, mobile crop received separate rules, and the page retained vertical flow with a next-film region.
+- **Prevention rule:** Let the footage determine safe zones and crop behavior. Preserve the content model required by the roadmap even when a reference specifies a fixed single viewport.
+- **Release boundary:** Static source checks and a hosted preview are confirmed. Cloudflare Pages deployment, physical-device review and the final repository video asset remain separate release evidence.
 
 ## Evidence levels
 
